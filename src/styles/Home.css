@@ -1,0 +1,55 @@
+.hero-section{
+    display: flex;
+    background-color: rgba(225, 255, 216, 0.3);
+    height: 500px;
+    margin-top: 30px;
+}
+
+.hero-section img{
+    width: 550px;
+    height: 450px;
+    margin-top: 10px;
+    margin-right: 110px;
+    margin-left: 78px;
+}
+
+.hero-text h1{
+    font-family: 'Mulish', sans-serif;
+    margin-top: 125px;
+    margin-left: 161px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.hero-text p{
+    font-family: 'Mulish', sans-serif;
+    margin-top: 25px;
+    margin-left: 161px;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgba(125, 121, 135, 1);
+    ;
+
+}
+
+.button-container button {
+    border: none;
+    margin-left: 161px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #119822;
+    font-family: 'Mulish', sans-serif;
+    height: 50px;
+    width: 180px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .button-container button:hover {
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+  }
